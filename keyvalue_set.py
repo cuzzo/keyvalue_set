@@ -52,8 +52,6 @@ def main():
 	for line in outLines:
 		f.write('%s\n' % line)
 	f.close()
-
-	print key, value, filePath
 	
 if __name__ == '__main__':
 	main()
